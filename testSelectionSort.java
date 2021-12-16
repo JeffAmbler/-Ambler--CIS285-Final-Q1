@@ -30,7 +30,7 @@ class testSelectionSort1 {
 	
 	@Test
 	void testNegative() {
-		int arr[]= {-9,-1,-3};
+		int arr[]= {-9,-1,-5};
 		int exp[]= {-9,-3,-1};
 		SelectionSort.sort(arr);
 		assertArrayEquals(exp, arr);
